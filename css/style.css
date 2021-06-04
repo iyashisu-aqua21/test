@@ -218,7 +218,7 @@ footer
 }
 @media (max-width: 576px)
 {
-    #navbar-brand img
+    .navbar-brand img
     {
         width: 120px;
         height: 30px;
