@@ -7,16 +7,15 @@ html, body
     font-family: 'Poppins', sans-serif;
     color: #222;
 }
-img
+/* img
 {
     pointer-events: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-touch-callout: none;
     -moz-user-select: none;
-    /* touch-callout: none; */
     user-select: none;
-}
+} */
 .navbar
 {
     padding: .8rem;
@@ -219,6 +218,11 @@ footer
 }
 @media (max-width: 576px)
 {
+    .navbar-brand img
+    {
+        width: 150px;
+        height: 100px;
+    }
     .carousel-caption
     {
         top: 40%;
