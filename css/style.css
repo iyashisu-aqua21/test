@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+img
+{
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-touch-callout: none;
+    -moz-user-select: none;
+    /* touch-callout: none; */
+    user-select: none;
+}
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav
+{
+    padding-right: 20px;
+}
+.nav-link
+{
+    font-size: 1.1rem !important;
+}
+.carousel-inner img
+{
+    width: 100%;
+}
+.jumbotron
+{
+    border-radius: 0;
+    text-align: center;
+}
+.jumbotron p
+{
+    cursor: pointer;
+}
+.welcome
+{
+    width: 100%;
+    margin: auto;
+}
+.welcome hr
+{
+    border-top: 2px solid #b4b4b4;
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: 70px;
+}
+.col-xs-12 h4
+{
+    font-weight: bold;
+    color: #008000;
+    margin-top: 10px;
+}
+.col-xs-12 p
+{
+    margin-bottom: 50px;
+}
+.col-xs-12 img
+{
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.col-lg-6 h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: #008000;
+
+}
+.col-lg-6 p1
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.col-lg-6 p2
+{
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}
+.col-lg-6 p3
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.col-lg-6 p4
+{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+.col-lg-6 p5
+{
+    font-size: 20px;
+}
+.social a
+{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook
+{
+    color: #3b5998;
+}
+.fa-twitter
+{
+    color: #00aced;
+}
+.fa-google-plus-g
+{
+    color: #dd4b39;
+}
+.fa-instagram
+{
+    color: #65318e;
+}
+.fa-youtube
+{
+    color: #bb0000;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover
+{
+    color: #d5d5d5;
+}
+footer
+{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(transparent,#00c6ff);
+}
+#page_top{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 3rem;
+    opacity: 0.6;
+}
+#page_top a{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f0aa';
+    font-size: 60px;
+    color: #ef3f40;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 992px)
+{
+    .social a
+    {
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media (max-width: 768px)
+{
+    .carousel-caption
+    {
+        top: 45%;
+    }
+    .carousel-caption h1
+    {
+        font-size: 350%;
+    }
+    .carousel-caption h3
+    {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn
+    {
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4
+    {
+        font-size: 200%;
+    }
+    .social a
+    {
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+}
+@media (max-width: 576px)
+{
+    .carousel-caption
+    {
+        top: 40%;
+    }
+    .carousel-caption h1
+    {
+        font-size: 250%;
+    }
+    .carousel-caption h3
+    {
+        font-size: 110%;
+    }
+    .carousel-caption .btn
+    {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators
+    {
+        display: none;
+    }
+    .display-4
+    {
+        font-size: 160%;
+    }
+    .social a
+    {
+        font-size: 2em;
+        padding: .7rem;
+    }
+}
+
+
+/*---Firefox Bug Fix --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/

@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+img
+{
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-touch-callout: none;
+    -moz-user-select: none;
+    /* touch-callout: none; */
+    user-select: none;
+}
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav
+{
+    padding-right: 20px;
+}
+.nav-link
+{
+    font-size: 1.1rem !important;
+}
+h1
+{
+	height:60px;
+	margin:0px 0px 5px 0px;
+	padding:0px 0px 10px 0px;
+	font-weight:bold;color:#877750;
+	background-image:url(../img/head011_04.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+.menu1{
+	width: 300px;
+	height: 40px;
+	/*border: 1px solid #CCC;*/
+	background: #F5F5F5;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left;
+    margin: 5px 35px 5px 35px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+	-moz-box-shadow: inset -1px -1px 1px rgba(000,000,000,0.2),inset 2px 2px 1px rgba(255,255,255,1);
+	-webkit-box-shadow: inset -1px -1px 1px rgba(000,000,000,0.2),inset 2px 2px 1px rgba(255,255,255,1);
+	box-shadow: inset -1px -1px 1px rgba(000,000,000,0.2),inset 2px 2px 1px rgba(255,255,255,1);
+	border-top: 1px solid #BBB;
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	/* behavior: url( "/css/PIE.htc" ) ; */
+
+}
+
+.menu2{
+	width: 300px;
+	height: 40px;
+	background: #F5F5F5;
+	/* border: 1px solid #CCC; */
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left;
+    margin: 5px 35px 5px 35px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+	-moz-box-shadow: inset -1px -1px 1px rgba(000,000,000,0.2),inset 2px 2px 1px rgba(255,255,255,1);
+	-webkit-box-shadow: inset -1px -1px 1px rgba(000,000,000,0.2),inset 2px 2px 1px rgba(255,255,255,1);
+	box-shadow: inset -1px -1px 1px rgba(000,000,000,0.2),inset 2px 2px 1px rgba(255,255,255,1);
+	border-top: 1px solid #BBB;
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	/* behavior: url( "/css/PIE.htc" ) ; */
+    margin-bottom: 70px;
+}
+
+p.top
+{
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p.bottom
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2 
+{
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px dotted #877750;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: left;
+    color: #877750;
+    font-size: 18px;
+}
+
+table.menu_tbl 
+{
+    width: 100%;
+    margin:0px;
+    margin-bottom: 10px;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-spacing:0px;
+}
+
+table.menu_tbl tr th 
+{
+    font-size: 12px;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 7px;
+    vertical-align: middle;
+    background: #c2f8dd;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    width: 500px;
+}
+
+table.menu_tbl tr td 
+{
+    font-size: 13px;
+    border-bottom: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 7px;
+    vertical-align: middle;
+    width: 500px;
+    font-weight: bold;
+}
+
+.menu_img
+{
+	/* float: left; */
+	margin-right: 20px;
+}
+
+.comment{
+	text-align: right;
+	font-size: 11px;
+	margin: 0;
+	color: red;
+}
+footer
+{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+#page_top{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 3rem;
+    opacity: 0.6;
+}
+#page_top a{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f0aa';
+    font-size: 60px;
+    color: #ef3f40;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(transparent,#00c6ff);
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px)
+{
+    #inner_tbl td
+    {
+        font-size: 15px;
+        padding: 0;
+    }
+}
+@media (max-width: 768px)
+{
+    #inner_tbl td
+    {
+        font-size: 14px;
+        padding: 0;
+    }
+}
+@media (max-width: 576px)
+{
+	#staff_tbl th
+	{
+		width: 50px;
+	}
+    #inner_tbl td
+    {
+        font-size: 13px;
+        padding: 0;
+    }
+}

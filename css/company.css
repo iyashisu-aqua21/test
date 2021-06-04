@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+img
+{
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-touch-callout: none;
+    -moz-user-select: none;
+    /* touch-callout: none; */
+    user-select: none;
+}
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav
+{
+    padding-right: 20px;
+}
+.nav-link
+{
+    font-size: 1.1rem !important;
+}
+h2
+{
+	height:60px;
+	margin:0px 0px 5px 0px;
+	padding:0px 0px 10px 0px;
+	font-weight:bold;color:#877750;
+	background-image:url(../img/head011_04.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+#company_tbl
+{
+	width: 100%;
+	margin: 20px auto;
+}
+
+#company_tbl th
+{
+	padding: 15px 10px 15px 10px;
+	text-align: center;
+	border-top: dotted 2px #999999;
+	border-bottom: dotted 2px #999999;
+	line-height: 1.75em;
+	width: 150px;
+	font-size: 12px;
+	vertical-align: middle;
+	font-weight: bold;
+    background: #c2f8dd;
+}
+
+#company_tbl td
+{
+	padding: 15px 10px 15px 20px;
+	border-top: dotted 2px #999999;
+	border-bottom: dotted 2px #999999;
+	border-left: dotted 2px #999999;
+	line-height: 1.75em;
+	font-size: 14px;
+}
+#inner_tbl
+{
+	width: 100%;
+}
+
+#inner_tbl td
+{
+	padding: 10px 0px 10px 0px;
+	line-height: 1.75em;
+	border: none;
+}
+
+#inner_tbl td.date
+{
+	width: 90px;
+}
+
+#rinen
+{
+	margin: 20px 0 40px 0;
+    font-size: 17px;
+}
+
+#greeting
+{
+	margin: 20px 0 50px 0;
+	width: 100%;
+}
+
+#signature
+{
+	text-align: right;
+	font-weight: bold;
+}
+footer
+{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+#page_top{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 3rem;
+    opacity: 0.6;
+}
+#page_top a{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f0aa';
+    font-size: 60px;
+    color: #ef3f40;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(transparent,#00c6ff);
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px)
+{
+    #inner_tbl td
+    {
+        font-size: 15px;
+        padding: 0;
+    }
+}
+@media (max-width: 768px)
+{
+    #inner_tbl td
+    {
+        font-size: 14px;
+        padding: 0;
+    }
+    #rinen
+    {
+        font-size: 14px;
+    }
+    #greeting
+    {
+        font-size: 14px;
+    }
+}
+@media (max-width: 576px)
+{
+    #company_tbl th 
+    {
+        width: 50px;
+    }
+    #inner_tbl td
+    {
+        font-size: 13px;
+        padding: 0;
+    }
+    #rinen
+    {
+        font-size: 13px;
+    }
+    #greeting
+    {
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+}
+img
+{
+    cursor: pointer;
+}
+.navbar
+{
+    padding: .8rem;
+}
+.navbar-nav
+{
+    padding-right: 20px;
+}
+.nav-link
+{
+    font-size: 1.1rem !important;
+}
+
+h2
+{
+	height:60px;
+	margin:0px 0px 5px 0px;
+	padding:0px 0px 10px 0px;
+	font-weight:bold;
+	color:#877750;
+	background-image:url(../img/head011_04.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+p
+{
+	font-size: 12px\9;
+}
+
+table.voice_tbl
+{
+    width: 100%;
+    margin-top: 20px;
+	margin-bottom: 20px;
+    border: none;
+}
+table.voice_tbl tr td
+{
+    width: 33%;
+    vertical-align: middle;
+    text-align: center;
+}
+.mt_20
+{
+	margin-top: 20px;
+}
+.navi
+{
+	text-align: center;
+}
+footer
+{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 1rem;
+}
+#page_top{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 0;
+    bottom: 3rem;
+    opacity: 0.6;
+}
+#page_top a{
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f0aa';
+    font-size: 60px;
+    color: #ef3f40;
+}
+::-webkit-scrollbar
+{
+    width: 12px;
+
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent,#30ff00);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(transparent,#00c6ff);
+}
