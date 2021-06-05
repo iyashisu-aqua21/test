@@ -187,28 +187,17 @@ footer
 }
 @media (max-width: 768px)
 {
-    .carousel-caption
+    .col-xs-12 h4
     {
-        top: 45%;
+        font-weight: bold;
+        color: #008000;
+        margin-top: 10px;
+        font-size: 20px;
     }
-    .carousel-caption h1
+    .col-xs-12 p
     {
-        font-size: 350%;
-    }
-    .carousel-caption h3
-    {
-        font-size: 140%;
-        font-weight: 400;
-        padding-bottom: .2rem;
-    }
-    .carousel-caption .btn
-    {
-        font-size: 95%;
-        padding: 8px 14px;
-    }
-    .display-4
-    {
-        font-size: 200%;
+        margin-bottom: 50px;
+        font-size: 12px;
     }
     .social a
     {
@@ -218,35 +207,42 @@ footer
 }
 @media (max-width: 576px)
 {
-    .navbar-brand img
+/*     .navbar-brand img
     {
         width: 120px;
         height: 30px;
-    }
-    .carousel-caption
+    } */
+    .col-lg-6 h1
     {
-        top: 40%;
+        font-size: 30px;
+        font-weight: bold;
+        color: #008000;
     }
-    .carousel-caption h1
+    .col-lg-6 p1
     {
-        font-size: 250%;
+        font-weight: bold;
+        font-size: 20px;
     }
-    .carousel-caption h3
+    .col-lg-6 p2
     {
-        font-size: 110%;
+        font-weight: bold;
+        font-size: 20px;
+        color: red;
     }
-    .carousel-caption .btn
+    .col-lg-6 p3
     {
-        font-size: 90%;
-        padding: 4px 8px;
+        font-weight: bold;
+        font-size: 20px;
     }
-    .carousel-indicators
+    .col-lg-6 p4
     {
-        display: none;
+        font-size: 20px;
+        color: red;
+        font-weight: bold;
     }
-    .display-4
+    .col-lg-6 p5
     {
-        font-size: 160%;
+        font-size: 15px;
     }
     .social a
     {
