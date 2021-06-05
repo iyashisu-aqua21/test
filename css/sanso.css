@@ -170,10 +170,10 @@ footer
     }
 	table.menu_tbl tr th 
     {
-        font-size: 8px;
+        font-size: 12px;
     }
     table.menu_tbl tr th span
     {
-        font-size: 5px;
+        font-size: 10px;
     }
 }
