@@ -29,7 +29,8 @@ img
 {
     font-size: 1.1rem !important;
 }
-h3{
+h3
+{
 	height:60px;
 	margin:30px 30px 30px 30px;
 	padding:0px 0px 5px 0px;
@@ -50,27 +51,25 @@ table.menu_tbl
 }
 table.menu_tbl tr th 
 {
-    font-size: 13px;
+    font-size: 14px;
     border-bottom: 1px solid #CCC;
     border-right: 1px solid #CCC;
     padding: 7px;
     vertical-align: middle;
     background: #c2f8dd;
-    text-align: left;
     width: 500px;
     text-align: center;
 }
 table.menu_tbl tr th span
 {
-    font-size: 17px;
+    font-size: 23px;
 }
-
 table.menu_tbl tr td 
 {
-    font-size: 19px;
+    font-size: 22px;
     border-bottom: 1px solid #CCC;
     border-right: 1px solid #CCC;
-    padding: 7px;
+    /* padding: 7px; */
     vertical-align: middle;
     width: 500px;
     font-weight: bold;
@@ -159,13 +158,20 @@ footer
 }
 @media (max-width: 576px)
 {
-	#staff_tbl th
-	{
-		width: 50px;
-	}
-    #inner_tbl td
+    h3 
+    {
+        font-size: 20px;
+    }
+    p
     {
         font-size: 13px;
-        padding: 0;
+    }
+	table.menu_tbl tr th 
+    {
+        font-size: 8px;
+    }
+    table.menu_tbl tr th span
+    {
+        font-size: 5px;
     }
 }

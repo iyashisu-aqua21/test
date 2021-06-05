@@ -29,7 +29,8 @@ img
 {
     font-size: 1.1rem !important;
 }
-h3{
+h3
+{
 	height:60px;
 	margin:30px 30px 30px 30px;
 	padding:0px 0px 5px 0px;
@@ -159,13 +160,20 @@ footer
 }
 @media (max-width: 576px)
 {
-	#staff_tbl th
-	{
-		width: 50px;
-	}
-    #inner_tbl td
+    h3 
     {
-        font-size: 13px;
-        padding: 0;
+        font-size: 20px;
+    }
+	p
+    {
+        font-size: 12px;
+    }
+	table.menu_tbl tr th 
+    {
+        font-size: 8px;
+    }
+    table.menu_tbl tr th span
+    {
+        font-size: 5px;
     }
 }
