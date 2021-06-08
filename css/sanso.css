@@ -87,7 +87,7 @@ table.menu_tbl tr td
 }
 .menu_img
 {
-    margin-left: 100px;
+/*     margin-left: 100px; */
     margin-bottom: 50px;
     display: flex;
     align-items: center;
